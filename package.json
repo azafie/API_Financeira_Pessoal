@@ -1,0 +1,68 @@
+{
+
+  "name": "financas-api",
+
+  "version": "1.0.0",
+
+  "description": "API de controle financeiro pessoal",
+
+  "scripts": {
+
+    "start": "node src/server.js",
+
+    "dev": "nodemon src/server.js",
+
+    "sequelize": "sequelize-cli --config src/config/config.cjs",
+
+    "test": "echo \"No tests yet\""
+
+  },
+
+  "keywords": [
+
+    "finance",
+
+    "api",
+
+    "node",
+
+    "sequelize"
+
+  ],
+
+  "author": "Emerson oliveira",
+
+  "license": "MIT",
+
+  "type": "module",
+
+  "dependencies": {
+
+    "bcrypt": "^6.0.0",
+
+    "cors": "^2.8.5",
+
+    "dotenv": "^17.2.3",
+
+    "express": "^5.2.1",
+
+    "jsonwebtoken": "^9.0.3",
+
+    "pg": "^8.16.3",
+
+    "pg-hstore": "^2.3.4",
+
+    "sequelize": "^6.37.7"
+
+  },
+
+  "devDependencies": {
+
+    "nodemon": "^3.1.11",
+
+    "sequelize-cli": "^6.6.2"
+
+  }
+
+}
+

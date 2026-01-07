@@ -1,0 +1,58 @@
+# ======================
+# DEPENDÊNCIAS
+# ======================
+node_modules/
+
+# ======================
+# VARIÁVEIS DE AMBIENTE
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# LOGS
+# ======================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# ======================
+# BUILD / DIST
+# ======================
+dist/
+build/
+
+# ======================
+# CACHE
+# ======================
+.cache/
+.tmp/
+.temp/
+coverage/
+
+# ======================
+# SISTEMA OPERACIONAL
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# EDITORES / IDE
+# ======================
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# TESTES
+# ======================
+.nyc_output/
+
+# ======================
+# DOCKER (opcional)
+# ======================
+docker-data/
